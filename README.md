@@ -42,3 +42,11 @@ import math
 >> 
 >> `lon2`: Longitude of the second point in degrees
 
+2. **convert_distance** Converts the distance to the specified unit
+
+> Arguments:
+
+>> `distance`: Distance to convert
+>> 
+>> `unit`: Unit of measurement to convert to (km, miles, nm)
+>> 
