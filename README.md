@@ -41,6 +41,8 @@ import math
 >> `lat2`: Latitude of the second point in degrees
 >> 
 >> `lon2`: Longitude of the second point in degrees
+>
+> Returns: `distance` Distance between the two points in degrees
 
 2. **convert_distance** Converts the distance to the specified unit
 
@@ -48,7 +50,9 @@ import math
 >
 >> `distance`: Distance to convert
 >> 
->> `unit`: Unit of measurement to convert to (km, miles, nm)
+>> `unit`: Unit of measurement to convert to ("km", "miles", or "nm")
+>
+> Returns: Converted distance
 
 # Usage example
 
